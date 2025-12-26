@@ -12,11 +12,29 @@ body {
     line-height: 1.6;
 }
 
+/* Delivery Section */
+.top {
+    height: 50px;
+    background-color: #7f7f7f;
+}
+
+.top>p {
+    margin: auto;
+    padding-top: 12px;
+    width: 30%;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.top>p>i {
+    color: #813636;
+}
+
 /* Header Section */
 header {
     background-color: #e63946;
     color: #fff;
-    padding: 20px 40px;
+    padding: 5px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,9 +43,17 @@ header {
     z-index: 1000;
 }
 
+header>div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
 header img {
     width: 50px;
-    border-radius: 5px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 header h1 {
